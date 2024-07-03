@@ -1,0 +1,221 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+	header {
+		padding: 10px 0;
+	}
+	.menu ul li a {
+		font-size: 16px;
+		padding: 10px 0 !important;
+		text-align: right;
+	}
+	.slider {
+		padding-bottom: 60px;
+	}
+	.c_indicator {
+		bottom: -60px;
+	}
+	.c_indicator [data-bs-target] {
+		width: 12px;
+		height: 12px;
+	}
+	.slider_text {
+		margin-top: 0;
+	}
+	.slider_text h1 {
+		font-size: 24px;
+	}
+	.slider_text h2 {
+		margin: 10px 0;
+		font-size: 18px;
+	}
+	.slider_text p {
+		margin-bottom: 20px;
+	}
+	.slider_icon ul li {
+		margin-right: 15px !important;
+	}
+	.slider_icon ul li i {
+		font-size: 28px;
+	}
+	.feature {
+		padding-top: 50px;
+		padding-bottom: 70px;
+	}
+	.c_h1 {
+		margin-bottom: 10px;
+		font-size: 24px;
+	}
+	.c_p {
+		font-size: 16px;
+	}
+	.f_item {
+		margin-top: 30px;
+	}
+	.f_icon i {
+		font-size: 34px;
+	}
+	.f_text {
+		text-align: center;
+	}
+	.f_text h2 {
+		font-size: 20px;
+	}
+	.contact {
+		padding-top: 50px;
+		padding-bottom: 70px;
+	}
+	.c_form {
+		margin: 40px 0;
+	}
+	.c_input {
+		height: 45px;
+	}
+	.c_button {
+		height: 45px;
+	}
+	.c_icon li i {
+		font-size: 26px;
+	}
+	footer {
+		padding-bottom: 50px;
+	}
+	.f_1 {
+		text-align: center;
+		margin-bottom: 40px;
+	}
+	.f_2 {
+		text-align: center;
+		margin-bottom: 20px;
+	}
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+	.menu ul li a {
+		font-size: 20px;
+		padding: 10px 0 !important;
+		text-align: right;
+	}
+	.slider {
+		padding-bottom: 60px;
+	}
+	.c_indicator {
+		bottom: -55px;
+	}
+	.c_indicator [data-bs-target] {
+		width: 12px;
+		height: 12px;
+	}
+	.slider_text {
+		margin-top: 0;
+	}
+	.slider_text h1 {
+		font-size: 24px;
+	}
+	.slider_text h2 {
+		margin: 10px 0;
+		font-size: 18px;
+	}
+	.slider_text p {
+		margin-bottom: 20px;
+	}
+	.slider_icon ul li {
+		margin-right: 20px !important;
+	}
+	.slider_icon ul li i {
+		font-size: 34px;
+	}
+	.feature {
+		padding-top: 50px;
+		padding-bottom: 70px;
+	}
+	.c_h1 {
+		margin-bottom: 10px;
+		font-size: 24px;
+	}
+	.c_p {
+		font-size: 16px;
+	}
+	.f_item {
+		margin-top: 30px;
+	}
+	.f_icon i {
+		font-size: 34px;
+	}
+	.f_text {
+		text-align: center;
+	}	
+	.f_text h2 {
+		font-size: 20px;
+	}
+	.contact {
+		padding-top: 50px;
+		padding-bottom: 70px;
+	}
+	.c_form {
+		margin: 40px 0;
+	}
+	.c_input {
+		height: 45px;
+	}
+	.c_button {
+		height: 45px;
+	}
+	.c_icon li i {
+		font-size: 26px;
+	}
+	footer {
+		padding-bottom: 70px;
+	}
+	.f_1 {
+		text-align: center;
+		margin-bottom: 40px;
+	}
+	.f_2 {
+		text-align: center;
+	}
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+	.menu ul li a {
+		padding: 10px 0 !important;
+		text-align: right;
+	}
+	.feature {
+		padding-top: 80px;
+		padding-bottom: 100px;
+	}
+	.f_item {
+		margin-top: 50px;
+	}
+	.contact {
+		padding-top: 80px;
+		padding-bottom: 100px;
+	}
+	.c_icon li i {
+		font-size: 30px;
+	}
+	footer {
+		padding-bottom: 100px;
+	}
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	.menu ul li a {
+		padding: 0 35px !important;
+	}
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+
+}
+
+/*Extra extra large devices (large desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+	.menu ul li a {
+		padding: 0 55px !important;
+	}
+}
